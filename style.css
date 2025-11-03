@@ -1,0 +1,88 @@
+/* Paleta de cores */
+:root {
+  --azul-pantone540: #002d5a; /* tom inspirado no Pantone 540 C */
+  --azul-claro: #e3f2fd;
+  --branco: #ffffff;
+  --cinza-texto: #2e2e2e;
+  --botao-hover: #003b7a;
+}
+
+/* Corpo geral */
+body {
+  background-color: var(--azul-claro);
+  color: var(--cinza-texto);
+  font-family: 'Segoe UI', 'Helvetica Neue', sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* Cabeçalho */
+header {
+  background-color: var(--azul-pantone540);
+  color: var(--branco);
+  padding: 30px 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+h1 {
+  margin-bottom: 10px;
+  font-size: 2.5em;
+}
+
+.subtitulo {
+  font-size: 1.1em;
+  font-style: italic;
+  opacity: 0.9;
+}
+
+/* Seções */
+main {
+  padding: 30px 20px;
+}
+
+.introducao img {
+  border-radius: 10px;
+  margin: 20px 0;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+/* Lista */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 8px 0;
+  background: rgba(0,45,90,0.1);
+  border-radius: 5px;
+  padding: 8px;
+}
+
+/* Botão */
+button {
+  background-color: var(--azul-pantone540);
+  color: var(--branco);
+  border: none;
+  padding: 12px 25px;
+  border-radius: 6px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: var(--botao-hover);
+  transform: scale(1.05);
+}
+
+/* Rodapé */
+footer {
+  background-color: var(--azul-pantone540);
+  color: var(--branco);
+  padding: 10px;
+  font-size: 0.9em;
+  margin-top: 40px;
+}
